@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Map Zone 15 LANDFIRE Demo, 2023",
+    "section": "",
+    "text": "In general we will use LANDFIRE products to:\n\nMap and summarize past and present ecosystems and ecosystem conditions\nExplore historical disturbance regimes\nSummarize patterns of change and management opportunities\n\nOutputs presented here are the tip of the iceberg of what can be done with these datasets and are intended to help begin brainstorming about appropriate questions that could be explored collaboratively."
+  },
+  {
+    "objectID": "index.html#interacting-with-this-web-report",
+    "href": "index.html#interacting-with-this-web-report",
+    "title": "Map Zone 15 LANDFIRE Demo, 2023",
+    "section": "Interacting with this web report",
+    "text": "Interacting with this web report\nA few notes about using this report:\n\nAs of February 16, 2023 there has been no QAQC. This is a demo only.\nThis platform is web-hosted so you can simply share a link with collaborators for their review.\n\nMaps and charts are intended to represent general patterns, and are almost always limited to most common types (e.g., ecosystems). You can use the “zoom” tool to take a closer look.\nAll maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty."
+  },
+  {
+    "objectID": "index.html#location-of-this-assessment",
+    "href": "index.html#location-of-this-assessment",
+    "title": "Map Zone 15 LANDFIRE Demo, 2023",
+    "section": "Location of this assessment",
+    "text": "Location of this assessment"
+  }
+]
