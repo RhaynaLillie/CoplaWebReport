@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.2.475">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LANDFIRE-Powered Landscape Assessment - Present</title>
+<title>LANDFIRE-Powered Landscape Assessment - Present: Current Ecosystem Conditions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -35,10 +34,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -100,6 +101,9 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+              </div>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -115,12 +119,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
-  <li><a href="#chart-of-most-prevalent-existing-vegetation-types" id="toc-chart-of-most-prevalent-existing-vegetation-types" class="nav-link" data-scroll-target="#chart-of-most-prevalent-existing-vegetation-types">Chart of most prevalent Existing Vegetation Types</a></li>
-  <li><a href="#map-of-most-prevalent-existing-vegetation-types" id="toc-map-of-most-prevalent-existing-vegetation-types" class="nav-link" data-scroll-target="#map-of-most-prevalent-existing-vegetation-types">Map of most prevalent Existing Vegetation Types</a></li>
-  <li><a href="#chart-of-existing-vegetation-cover" id="toc-chart-of-existing-vegetation-cover" class="nav-link" data-scroll-target="#chart-of-existing-vegetation-cover">Chart of Existing Vegetation Cover</a></li>
-  <li><a href="#map-of-existing-vegetation-cover" id="toc-map-of-existing-vegetation-cover" class="nav-link" data-scroll-target="#map-of-existing-vegetation-cover">Map of Existing Vegetation Cover</a></li>
-  <li><a href="#chart-of-existing-vegetation-height" id="toc-chart-of-existing-vegetation-height" class="nav-link" data-scroll-target="#chart-of-existing-vegetation-height">Chart of Existing Vegetation Height</a></li>
-  <li><a href="#map-of-existing-vegetation-height" id="toc-map-of-existing-vegetation-height" class="nav-link" data-scroll-target="#map-of-existing-vegetation-height">Map of Existing Vegetation Height</a></li>
+  <li><a href="#most-prevalent-existing-vegetation-types" id="toc-most-prevalent-existing-vegetation-types" class="nav-link" data-scroll-target="#most-prevalent-existing-vegetation-types">Most Prevalent Existing Vegetation Types</a></li>
+  <li><a href="#most-prevalent-existing-vegetation-types-1" id="toc-most-prevalent-existing-vegetation-types-1" class="nav-link" data-scroll-target="#most-prevalent-existing-vegetation-types-1">Most Prevalent Existing Vegetation Types</a></li>
+  <li><a href="#existing-vegetation-cover" id="toc-existing-vegetation-cover" class="nav-link" data-scroll-target="#existing-vegetation-cover">Existing Vegetation Cover</a></li>
+  <li><a href="#existing-vegetation-height" id="toc-existing-vegetation-height" class="nav-link" data-scroll-target="#existing-vegetation-height">Existing Vegetation Height</a></li>
   </ul>
 </nav>
     </div>
@@ -129,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Present</h1>
+<h1 class="title">Present: Current Ecosystem Conditions</h1>
 </div>
 
 
@@ -144,12 +146,29 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>All outputs on this page generated with the most recent LANDFIRE <a href="https://landfire.gov/vegetation.php" target="blank">Existing Vegetation Type, Cover and Height</a> datasets, which represent conditions on the ground in 2020.</p>
+<p>LANDFIRE’s <a href="https://landfire.gov/vegetation.php" target="blank">Existing Vegetation Type, Cover and Height</a> datasets describe vegetation conditions.</p>
+<ul>
+<li>Existing Vegetation Type (EVT) - represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016</li>
+<li>Existing Vegetation Cover (EVC) - represents the vertically projected percent cover of the live canopy layer for a 30-m cell</li>
+<li>Existing Vegetation Height (EVH) - represents the average height of the dominant vegetation for a 30-m cell</li>
+</ul>
+<p><a href="https://landfire.gov/vegetation.php" target="blank">Read more about LANDFIRE Vegetation Products</a></p>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<ul>
+<li>The Colorado Plateau Pinyon-Juniper Woodland is the most dominant ecosystem covering almost 23% of the subregion. The “shrubland” version of this type covers ~7% of the area.</li>
+<li>Shrub leafforms are by far the most dominant; relatively low canopy cover dominates as well.</li>
+<li>Trees are not a large component of this subregion. Trees that are there are in the shorter height categories.</li>
+</ul>
 </section>
-<section id="chart-of-most-prevalent-existing-vegetation-types" class="level2">
-<h2 class="anchored" data-anchor-id="chart-of-most-prevalent-existing-vegetation-types">Chart of most prevalent Existing Vegetation Types</h2>
+<section id="most-prevalent-existing-vegetation-types" class="level2">
+<h2 class="anchored" data-anchor-id="most-prevalent-existing-vegetation-types">Most Prevalent Existing Vegetation Types</h2>
+<p><br></p>
+<p><img src="images/evt.jpg" class="img-fluid" style="width:100.0%"></p>
+<p><br></p>
+</section>
+<section id="most-prevalent-existing-vegetation-types-1" class="level2">
+<h2 class="anchored" data-anchor-id="most-prevalent-existing-vegetation-types-1">Most Prevalent Existing Vegetation Types</h2>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="present_files/figure-html/evt chart-1.png" class="img-fluid" width="960"></p>
@@ -157,14 +176,11 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p><br></p>
 </section>
-<section id="map-of-most-prevalent-existing-vegetation-types" class="level2">
-<h2 class="anchored" data-anchor-id="map-of-most-prevalent-existing-vegetation-types">Map of most prevalent Existing Vegetation Types</h2>
-<p><br></p>
-<p><img src="images/evt.jpg" class="img-fluid" style="width:100.0%"></p>
-<p><br></p>
-</section>
-<section id="chart-of-existing-vegetation-cover" class="level2">
-<h2 class="anchored" data-anchor-id="chart-of-existing-vegetation-cover">Chart of Existing Vegetation Cover</h2>
+<section id="existing-vegetation-cover" class="level2">
+<h2 class="anchored" data-anchor-id="existing-vegetation-cover">Existing Vegetation Cover</h2>
+<p>The Existing Vegetation Cover (EVC) map is a visual representation of EVC classifications across the subregion. The chart below the map provides a breakdown of each vegetation cover classification and their relative dominance across the subregion</p>
+<p>From this information, we can see that the majority of this subregion is classified as “shrub,” comprising approximately 80% of the vegetation cover.</p>
+<p><img src="images/evc.jpg" class="img-fluid" style="width:100.0%"> <br> <br></p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="present_files/figure-html/evc chart-1.png" class="img-fluid" width="960"></p>
@@ -172,22 +188,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p><br></p>
 </section>
-<section id="map-of-existing-vegetation-cover" class="level2">
-<h2 class="anchored" data-anchor-id="map-of-existing-vegetation-cover">Map of Existing Vegetation Cover</h2>
-<p><img src="images/evc.jpg" class="img-fluid" style="width:100.0%"></p>
-</section>
-<section id="chart-of-existing-vegetation-height" class="level2">
-<h2 class="anchored" data-anchor-id="chart-of-existing-vegetation-height">Chart of Existing Vegetation Height</h2>
+<section id="existing-vegetation-height" class="level2">
+<h2 class="anchored" data-anchor-id="existing-vegetation-height">Existing Vegetation Height</h2>
+<p>The Existing Vegetation Height (EVH) map showcases EVH across the subregion. The chart below the map provides the percentage of the landscape represented by each EVH height.</p>
+<p>From these results, we can see the majority of vegetation on the landscape is .25-.9 meters in height.</p>
+<p><img src="images/evh.jpg" class="img-fluid" style="width:100.0%"> <br></p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="present_files/figure-html/evh chart-1.png" class="img-fluid" width="960"></p>
 </div>
 </div>
-<p><br></p>
-</section>
-<section id="map-of-existing-vegetation-height" class="level2">
-<h2 class="anchored" data-anchor-id="map-of-existing-vegetation-height">Map of Existing Vegetation Height</h2>
-<p><img src="images/evh.jpg" class="img-fluid" style="width:100.0%"></p>
 
 
 </section>
@@ -213,6 +223,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'alternate';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
