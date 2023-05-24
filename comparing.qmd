@@ -93,7 +93,7 @@ htmlwidgets::saveWidget(chord,
 <br>
 
 ## Succession classes for most dominant BpSs
-- Rocky Mountain Montane Riparian Systems have the difference between the reference and current amounts of succession classes, with a substantial over representation of succession class B.
+- Succession classes have changed the most in the Rocky Mountain Montane Riparian Systems BpS, with a substantial over representation of succession class B currently.
 - Some BpSs appear to be missing succession classes on the landscape today, such as the Colorado Plateau Pinyon-Juniper Woodland which is missing succession class B.  
 
 

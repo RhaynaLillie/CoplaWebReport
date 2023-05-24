@@ -66,7 +66,7 @@ evtChart
 ## Existing Vegetation Cover
 The Existing Vegetation Cover (EVC) map is a visual representation of EVC classifications across the subregion. The chart below the map provides a breakdown of each vegetation cover classification and their relative dominance across the subregion
 
-From this information, we can see that the majority of this subregion is classified as “shrub,” comprising approximately 80% of the vegetation cover.
+From this information, we can see that the majority of this subregion is classified as “shrub,” comprising approximately 50% of the vegetation cover.
 
 
 ![](images/evc.jpg){width=100%}
@@ -171,7 +171,7 @@ evcChart
 ## Existing Vegetation Height
 The Existing Vegetation Height (EVH) map showcases EVH across the subregion. The chart below the map provides the percentage of the landscape represented by each EVH height.
 
-From these results, we can see the majority of vegetation on the landscape is .25-.9 meters in height.
+From these results, most trees are between 1 - 15M tall and most shrubs are between 0.2 - 0.5M tall.
 
 ![](images/evh.jpg){width=100%}
 <br>
