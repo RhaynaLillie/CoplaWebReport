@@ -14,8 +14,8 @@ Use this page as a starting point to explore the most prevalent BpSs in the SRFS
 ## Summary
 
 * Prior to European colonization, the most dominant vegetation system for the Wyoming Sagebrush Subregion was [Colorado Plateau Pinyon-Juniper Woodland](https://landfirereview.org/search.php?q=Colorado%20Plateau%20Pinyon-Juniper%20Woodland&hPP=20&idx=lf_landfire_dev&p=0&is_v=1){target="blank"}.
-* This system experienced ~58,000 acres of fire annually across the subregion historically.
-* The Rocky Mountain Montane Riparian Systems had the most disturbance annually with substantial amounts of 'wind/weather/stress' (i.e., flooding in this system).
+* Historically, this system experienced ~58,000 acres of fire annually across the subregion historically.
+* The Rocky Mountain Montane Riparian Systems had the most disturbance annually with substantial amounts of 'wind/weather/stress'.
 
 Scroll down to explore the "historical disturbances per ecosystem" using the interactive web app.
 
@@ -97,6 +97,7 @@ ggsave("./OUTPUTS/fireChart.png", width = 12, height = 5)
 
 ![](images/mfri.jpg){width=100%}
 
+<br>
 
 ## Historical Disturbances (per ecosystem)
 

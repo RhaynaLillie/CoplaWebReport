@@ -24,8 +24,8 @@ Using LANDFIRE’s BpS products, we explore two different ways to visualize past
 ### Summary
 
 * Broadly speaking, this subregion has not experienced significant ecosystem conversion to agricultural or urban land uses.  
-* LANDFIRE mapped a fair amount of change in the "Past Conifer" class, with almost 30% of it being mapped as shrubland on the landscape today.
-* Almost all of today's exotic vegetation was mapped on former shrubland areas. 
+* LANDFIRE mapped a fair amount of change in the "Past Conifer" class, with almost 30% of it being mapped as present day shrubland.
+* Nearly all of the land classified as present day "exotic vegetation" was converted from shrubland areas. 
 
 ```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 # read in data
@@ -94,7 +94,7 @@ htmlwidgets::saveWidget(chord,
 
 ## Succession classes for most dominant BpSs
 - Succession classes have changed the most in the Rocky Mountain Montane Riparian Systems BpS, with a substantial over representation of succession class B currently.
-- Some BpSs appear to be missing succession classes on the landscape today, such as the Colorado Plateau Pinyon-Juniper Woodland which is missing succession class B.  
+- Some BpSs appear to be missing succession classes on the landscape today, such as the Colorado Plateau Pinyon-Juniper Woodland (missing succession class B).  
 
 
 ```{r scls chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=9}
